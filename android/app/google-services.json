@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "1054742774432",
+    "firebase_url": "https://sermonquizapp.firebaseio.com",
+    "project_id": "sermonquizapp",
+    "storage_bucket": "sermonquizapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054742774432:android:5106163bbb4f212a",
+        "android_client_info": {
+          "package_name": "com.marcustwichel.secretsermonapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054742774432-evnp4ur7hqt7vhu2lroqra2la463hh9a.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1054742774432-evnp4ur7hqt7vhu2lroqra2la463hh9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYFlAMCH89snPbQn-mOLoYc8muZpwmSZg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054742774432:android:7f97a3715f04f2a0",
+        "android_client_info": {
+          "package_name": "com.marcustwichel.sermonquizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054742774432-r28fcojjqhisrfip8gfkjv550h7rbmt0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marcustwichel.sermonquizapp",
+            "certificate_hash": "a2a1a271a986f0ca8470373d1f1d85c7f0ecefdc"
+          }
+        },
+        {
+          "client_id": "1054742774432-evnp4ur7hqt7vhu2lroqra2la463hh9a.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1054742774432-evnp4ur7hqt7vhu2lroqra2la463hh9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYFlAMCH89snPbQn-mOLoYc8muZpwmSZg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054742774432-evnp4ur7hqt7vhu2lroqra2la463hh9a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1054742774432-6ijmmtq4pukre701qkekkjivi8a2gl1d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.marcustwichel.sermonQuizApp"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
