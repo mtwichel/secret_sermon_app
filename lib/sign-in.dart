@@ -5,6 +5,7 @@ import 'dart:async';
 import 'social-button.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:flutter_facebook_login/flutter_facebook_login.dart';
+//import 'email-view.dart';
 
 GoogleSignIn _googleSignIn = new GoogleSignIn(
   scopes: [
@@ -54,13 +55,6 @@ class _SignInPageState extends State<SignInPage> {
               text: "Facebook",
               onPressed: signInWithFacebook,
             ),
-            new SocialButton(
-              color: new Color(0xFF1DA1F2),
-              textColor: Colors.white,
-              icon: FontAwesomeIcons.twitter,
-              text: "Twitter",
-              onPressed: signInWithTwitter,
-            )
           ],
         ),
       ),
@@ -76,15 +70,16 @@ class _SignInPageState extends State<SignInPage> {
     );
   }
 
-  void signOut() {
-    _auth.signOut();
+  void signInWithEmail() async{
+//    String value = await Navigator
+//        .of(context)
+//        .push(new MaterialPageRoute<String>(builder: (BuildContext context) {
+//      return new EmailView();
+//    }));
   }
 
-  signInWithTwitter() {
-    _auth.signInWithTwitter(
-        authToken: "283671411-DmSGuc3B0JD0jCOp30Z66DRfukheUYd8xxqu2u68",
-        authTokenSecret: "lMWxzmadMnphAnTDqhlaVWeTbX0i7iO2fMcOXpfqra7S0",
-    );
+  void signOut() {
+    _auth.signOut();
   }
 
   signInWithFacebook() async{
