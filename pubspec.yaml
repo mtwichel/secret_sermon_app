@@ -3,7 +3,7 @@ description: A new Flutter application.
 
 dependencies:
   google_sign_in:
-  flutter_facebook_login:
+#  flutter_facebook_login:
   firebase_auth:
   cloud_firestore:
   font_awesome_flutter:

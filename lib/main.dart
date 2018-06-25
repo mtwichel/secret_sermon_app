@@ -33,14 +33,8 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
   bool signedIn = false;
 
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
 
 
   @override
@@ -73,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
           )
         ],
       ),
-      body: new RadioQuestion(question: "This is the question?",),
+      body: new Text("HI"),
       floatingActionButton: new FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',

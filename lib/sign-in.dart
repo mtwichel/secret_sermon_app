@@ -4,7 +4,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'dart:async';
 import 'social-button.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:flutter_facebook_login/flutter_facebook_login.dart';
 //import 'email-view.dart';
 
 GoogleSignIn _googleSignIn = new GoogleSignIn(
@@ -83,18 +82,18 @@ class _SignInPageState extends State<SignInPage> {
   }
 
   signInWithFacebook() async{
-    var facebookLogin = new FacebookLogin();
-    FacebookLoginResult result =
-        await facebookLogin.logInWithReadPermissions(['email']);
-    if (result.accessToken != null) {
-      try {
-        FirebaseUser user = await _auth.signInWithFacebook(
-            accessToken: result.accessToken.token);
-        print(user);
-      } catch (e) {
-        print(e.details);
-      }
-    }
+//    var facebookLogin = new FacebookLogin();
+//    FacebookLoginResult result =
+//        await facebookLogin.logInWithReadPermissions(['email']);
+//    if (result.accessToken != null) {
+//      try {
+//        FirebaseUser user = await _auth.signInWithFacebook(
+//            accessToken: result.accessToken.token);
+//        print(user);
+//      } catch (e) {
+//        print(e.details);
+//      }
+//    }
   }
 
 
